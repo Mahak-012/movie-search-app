@@ -1,16 +1,53 @@
-# React + Vite
+🎬 Movie Search App
+Live Demo GitHub Repo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+📌 Note: This project is built as a practice exercise to demonstrate my frontend & API skills. I am fully capable of building custom, dynamic web applications tailored to your specific business needs!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🌐 Live Demo
+🚀 Check out the live application here: https://movie-search-app-pi-neon.vercel.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📖 About The Project
+A sleek, responsive, and dynamic movie search application. Users can search for any movie in real-time and get instant details like ratings, release year, and posters. This project highlights my ability to integrate third-party REST APIs smoothly and manage state effectively in React.
+
+✨ Key Features
+🔍 Real-Time Search: Fetches and displays movies instantly as you type.
+🎞️ Detailed View: View comprehensive details about any movie, including poster, rating, runtime, and plot.
+📱 Responsive Design: Fully optimized for mobile, tablet, and desktop screens.
+⚡ API Integration: Smoothly fetches data from a live movie database API.
+⏳ Loading States & Error Handling: Clean UI feedback during API fetching and when no results are found.
+
+
+
+🛠️ Tech Stack
+ReactTailwind CSSViteVercel
+
+
+
+🚀 Run Locally
+To run this project on your local machine, follow these steps:
+
+
+Clone the project
+git clone https://github.com/Mahak-012/movie-search-app.git
+Go to the project directory
+bash
+
+cd movie-search-app
+Install dependencies
+bash
+
+npm install
+Start the development server
+bash
+
+npm run dev
+📬 Let's Connect!
+If you have a project requirement or want to collaborate, feel free to reach out!
+
+
+LinkedIn: https://www.linkedin.com/in/mahak-webdev/
+Email: mahakmimi01@gmail.com
