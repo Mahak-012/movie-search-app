@@ -56,10 +56,10 @@ export default function SearchBar({ onSearch }) {
             onFocus={()=>setFocused(true)}
             onBlur={()=>setTimeout(()=>{setFocused(false);setSugg([]);},200)}
             placeholder="Search movies by title, genre, actor..."
-            style={{ flex:1, background:"transparent", border:"none", outline:"none", fontSize:"15px", fontWeight:"500", color, fontFamily:"inherit" }} />
-          {q && <button type="button" onClick={clear} style={{ fontSize:"14px", color:dark?"rgba(255,255,255,0.4)":"rgba(0,0,0,0.4)", background:"none", border:"none", cursor:"pointer" }}>✕</button>}
+            style={{ flex:1, minWidth:0, background:"transparent", border:"none", outline:"none", fontSize:"15px", fontWeight:"500", color, fontFamily:"inherit" }} />
+          {q && <button type="button" onClick={clear} style={{ fontSize:"14px", color:dark?"rgba(255,255,255,0.4)":"rgba(0,0,0,0.4)", background:"none", border:"none", cursor:"pointer", flexShrink:0 }}>✕</button>}
           <button type="submit"
-            style={{ padding:"10px 24px", borderRadius:"12px", border:"none", cursor:"pointer", fontSize:"13px", fontWeight:"800", color:"white", letterSpacing:"0.05em", background:"linear-gradient(135deg,#7f0000,#e53e3e)", boxShadow:"0 4px 20px rgba(229,62,62,0.4)", whiteSpace:"nowrap", fontFamily:"inherit" }}>
+            style={{ padding:"10px 24px", borderRadius:"12px", border:"none", cursor:"pointer", fontSize:"13px", fontWeight:"800", color:"white", letterSpacing:"0.05em", background:"linear-gradient(135deg,#7f0000,#e53e3e)", boxShadow:"0 4px 20px rgba(229,62,62,0.4)", whiteSpace:"nowrap", fontFamily:"inherit", flexShrink:0 }}>
             SEARCH
           </button>
         </div>
